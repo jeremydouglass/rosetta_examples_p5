@@ -7,8 +7,14 @@ assignees: ''
 
 ---
 
+Browse tasks:
+https://rosettacode.org/wiki/Category:Processing
+https://rosettacode.org/wiki/Reports:Tasks_not_implemented_in_Processing
+
 ### URL
-_The Rosetta Code task, e.g. http://rosettacode.org/wiki/100_doors . Browse available tasks at https://rosettacode.org/wiki/Category:Processing _.
+The Rosetta Code task, e.g.
+http://rosettacode.org/wiki/100_doors
 
 ### Status
-_Is this code that 1) is available 2) you plan to write 3) you request somebody write?_
+This is code that:
+1) is available 2) I plan to write 3) I request somebody write
