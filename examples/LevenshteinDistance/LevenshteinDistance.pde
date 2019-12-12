@@ -46,3 +46,8 @@ int distance(String a, String b) {
   }
   return costs[b.length()];
 }
+
+/**
+ * OUTPUT
+ * 3
+ */
