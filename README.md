@@ -12,7 +12,10 @@ desktop environment through Contributions Manager under the Examples tab.
 > demonstrate how languages are similar and different, and to aid a person
 > with a grounding in one approach to a problem in learning another.
 
-Rosetta Code has ~1000 tasks including file and sysem access, string manipulation, math problems, graphics output and more -- with some of these tasks implemented in dozens or even hundreds of programming languages. A few examples include:
+Rosetta Code has ~1000 tasks including file and sysem access, string
+manipulation, math problems, graphics output and more -- with some of these
+tasks implemented in dozens or even hundreds of programming languages. A few
+examples include:
 
 -  Archimedean spiral
 -  Draw a sphere
@@ -25,7 +28,8 @@ Rosetta Code has ~1000 tasks including file and sysem access, string manipulatio
 -  Palindrome detection
 -  Rename a file
 
-Simply put, this project both solicits Processing contributions to Rosetta Code and curates the resulting examples as a set for Processing language learners.
+Simply put, this project both solicits Processing contributions to Rosetta Code
+and curates the resulting examples as a set for Processing language learners.
 
 
 ## Getting the examples
@@ -45,9 +49,12 @@ Processing data folder, and available through the Examples pop-up menu.
 
 ##  License and Contributions
 
-This example set uses the same open documentation license as the Rosetta Code Project, and contributes and redistributes Processing Examples under those same terms.
+This example set uses the same open documentation license as the Rosetta Code
+Project, and contributes and redistributes Processing Examples under those same
+terms.
 
 See [LICENSE.md](LICENSE.md) for the current license.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for more information on how you can contribute to this repository.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for more information on how you can 
+contribute to this repository.
 
