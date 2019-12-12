@@ -33,7 +33,14 @@ Simply put, this project both solicits Processing contributions to Rosetta Code 
 Examples are available from the github project homepage:
 https://github.com/jeremydouglass/processing_rosetta_examples
 
-You may download the files as a zip or clone the repository using the "Clone or Download" button.
+You may download the files as a zip or clone the repository using the
+"Clone or Download" button.
+
+Another option is to install all the examples through the desktop Processing
+Development Environment (PDE). From the menu, File > Examples > Add Examples
+will open the Contributions Manager to the Examples tab. Download the example
+set. All sketches will be installed in the Examples subfolder of your
+Processing data folder, and available through the Examples pop-up menu.
 
 
 ##  License and Contributions
