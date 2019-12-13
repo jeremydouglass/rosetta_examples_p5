@@ -1,14 +1,16 @@
 #!/usr/bin/env bash
 
-zip -r ../processing_rosetta_examples.zip . -x "*.git*" -x "*.DS_Store" -x "*.sh"
+mkdir -p release
+zip -r release/processing_rosetta_examples.zip . -x "*.git*" -x "release*" -x "*.DS_Store" -x "*.sh"
+cp examples.properties release/processing_rosetta_examples.txt
 
 # In order to release
 # 
 # 1. check out a clean master (with no pending files)
 # 2. update the version number in processing_rosetta_examples.txt
-# 3. run the release script in the repo root -- this generates the zip outside
+# 3. run the release script in the repo root -- this generates release files 
 # 4. on gihub, create a new release tagged e.g. v0.4
-# 5. add two assets as attachments:
+# 5. add two release/ assets as attachments:
 #    -  processing_rosetta_examples.txt
 #    -  processing_rosetta_examples.zip
 # 
