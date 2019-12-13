@@ -1,4 +1,6 @@
 # Processing Rosetta Code Examples
+![Processing Rosetta Examples Logo 300x300](logo/processing_rosetta_examples-logo-300x300.png)
+
 Example set for [Processing](http://processing.org)
 from [Rosetta Code](http://rosettacode.org/).
 
