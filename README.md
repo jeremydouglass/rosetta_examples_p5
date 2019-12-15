@@ -1,5 +1,5 @@
-# Processing Rosetta Code Examples
-![Processing Rosetta Examples Logo 300x300](logo/processing_rosetta_examples-logo-300x300.png)
+# Rosetta Code Examples for P5
+![Rosetta Code Examples for P5 Logo 300x300](logo/rosetta_examples_p5-logo-300x300.png)
 
 Example set for [Processing](http://processing.org)
 from [Rosetta Code](http://rosettacode.org/).
@@ -37,7 +37,7 @@ and curates the resulting examples as a set for Processing language learners.
 ## Getting the examples
 
 Examples are available from the github project homepage:
-https://github.com/jeremydouglass/processing_rosetta_examples
+https://github.com/jeremydouglass/rosetta_examples_p5
 
 You may download the files as a zip or clone the repository using the
 "Clone or Download" button.

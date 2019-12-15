@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 RELD=release
-ZIPD=processing_rosetta_examples
+ZIPD=rosetta_examples_p5
 
 if [ -d $RELD/$ZIPD ]; then rm -Rf $RELD/$ZIPD; fi
 mkdir -p $RELD/$ZIPD
@@ -26,8 +26,8 @@ rm -r $ZIPD
 # 3. run the release script in the repo root -- this generates release files 
 # 4. on gihub, create a new release tagged with the version, e.g. v0.4
 # 5. add two release/ assets as attachments to the GitHub release:
-#    -  processing_rosetta_examples.txt
-#    -  processing_rosetta_examples.zip
+#    -  rosetta_examples_p5.txt
+#    -  rosetta_examples_p5.zip
 # 
 # Done! The "latest" path will automatically point to the newest release
 # and its download assets -- this will update what PDE displays and loads.

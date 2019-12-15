@@ -16,7 +16,7 @@ Several options for contributing are listed below.
 To identify an existing Processing task already on the Rosetta Code wiki that is not yet part of this example set:
 
 1. on the Rosetta Code wiki, browse  [Processing tasks](https://rosettacode.org/wiki/Category:Processing). If you find a task that is not listed in this repos `examples` folder:
-2. create a new issue https://github.com/jeremydouglass/processing_rosetta_examples/issues named for that task
+2. create a new issue https://github.com/jeremydouglass/rosetta_examples_p5/issues named for that task
 
 
 ### Contribute a new task to the Rosetta Code wiki
