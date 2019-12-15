@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 
 mkdir -p release
-zip -r release/processing_rosetta_examples.zip . -x "*.git*" -x "release*" -x "*.DS_Store" -x "*.sh"
+rm release/processing_rosetta_examples.zip
+zip -r release/processing_rosetta_examples.zip . -x "*.git*" -x "release*" -x "*logo*" -x "*.DS_Store" -x "*.sh"
 cp examples.properties release/processing_rosetta_examples.txt
 
 # In order to release
