@@ -1,0 +1,23 @@
+---
+name: Add Example from Wiki
+about: 'Based on an existing Rosetta Code code snippet, add an example sketch to the
+  set '
+title: "[ADD EXAMPLE] "
+labels: add_example
+assignees: ''
+
+---
+
+**Instructions:**
+Find Processing task code on the wiki with no sketch in this repo:
+    https://rosettacode.org/wiki/Category:Processing
+If you are interested in first contributing new Processing task code to the wiki, check:
+    https://rosettacode.org/wiki/Reports:Tasks_not_implemented_in_Processing
+
+### URL of task
+e.g. http://rosettacode.org/wiki/100_doors#Processing
+
+### Next steps
+- [ ] I requesting that somebody else write the .pde sketch
+- [ ] I will write the .pde sketch and submit as an issue comment
+- [ ] I will write the .pde sketch and submit as a pull request
