@@ -9,17 +9,17 @@
  * created by your program. These functions are OS related. 
  */
 
-void setup(){
+void setup() {
   // draw r/b color regions to detect with task
-  fill(255,0,0);
-  rect(0,0,width/2,height);
-  fill(0,0,255);
-  rect(width/2,0,width,height);
+  fill(255, 0, 0);
+  rect(0, 0, width/2, height);
+  fill(0, 0, 255);
+  rect(width/2, 0, width, height);
 }
 
-void draw(){
+void draw() {
   // Method 1:
-  color c = get(mouseX,mouseY);
+  color c = get(mouseX, mouseY);
   println(c, red(c), green(c), blue(c));
 
   // Method 2:

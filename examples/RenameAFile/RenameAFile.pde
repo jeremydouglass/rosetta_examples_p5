@@ -19,7 +19,7 @@
  * these root operations should be expected to fail by default.
  */
 
-void setup(){
+void setup() {
   // rename local file
   boolean sketchfile = rename(sketchPath("input.txt"), sketchPath("output.txt"));
   // rename local folder
@@ -28,7 +28,7 @@ void setup(){
   boolean rootfile = rename("input.txt", "output.txt");
   // rename root folder (if permitted)
   boolean rootfold = rename("docs", "mydocs");
-  
+
   // display results of four operations: true=success, false=fail
   println(sketchfile, sketchfold, rootfile, rootfold); 
   // output:

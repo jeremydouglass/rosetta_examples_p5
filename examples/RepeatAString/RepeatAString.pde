@@ -11,7 +11,7 @@
  * (i.e. creating a string filled with a certain character),
  * you might want to show that as well (i.e. repeat-char("*", 5) => "*****").
  */
- 
+
 void setup() {
   String rep = repeat("ha", 5);
   println(rep);

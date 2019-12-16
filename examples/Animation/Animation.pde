@@ -14,19 +14,20 @@
 String txt = "Hello, world! ";
 boolean dir = true;
 
-void draw(){
+void draw() {
   background(128);
   text(txt, 10, height/2);
-  if(frameCount%10==0){
-    if(dir) {
+  if (frameCount%10==0) {
+    if (dir) {
       txt = rotate(txt, 1);
     } else {
       txt = rotate(txt, txt.length()-1);
     }
+    println(txt);
   }
 }
 
-void mouseReleased(){
+void mouseReleased() {
   dir = !dir;
 }
 

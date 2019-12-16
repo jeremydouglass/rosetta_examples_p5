@@ -19,13 +19,13 @@
  * to illustrate adequacy.
  */
 
-for(int i = 1; i <= 100; i++){
+for (int i = 1; i <= 100; i++) {
   String output = "";
- 
-  if(i % 3 == 0) output += "Fizz";
-  if(i % 5 == 0) output += "Buzz";
+
+  if (i % 3 == 0) output += "Fizz";
+  if (i % 5 == 0) output += "Buzz";
   // copy & paste above line to add more tests
- 
-  if(output == "") output = str(i);
+
+  if (output == "") output = str(i);
   println(output);
 }

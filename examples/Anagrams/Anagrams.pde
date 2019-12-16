@@ -19,7 +19,7 @@ void setup() {
   topAnagrams(words);
 }
 
-void topAnagrams (String[] words){
+void topAnagrams (String[] words) {
   HashMap<String, StringList> anagrams = new HashMap<String, StringList>();
   int maxcount = 0;
   for (String word : words) {

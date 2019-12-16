@@ -19,7 +19,7 @@
  */
 
 boolean[] doors = new boolean[100];
- 
+
 void setup() {
   for (int i = 0; i < 100; i++) {
     doors[i] = false;
