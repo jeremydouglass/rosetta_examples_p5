@@ -4,10 +4,11 @@
 Example set for [Processing](http://processing.org)
 from [Rosetta Code](http://rosettacode.org/).
 
-This set of example Processing sketches compiles the available Processing
-versions of tasks on Rosetta Code. The examples are directly downloadable from
-the repository. They may also be loaded directly into the Processing PDE
-desktop environment through Contributions Manager under the Examples tab.
+This set of example Processing (Java mode) sketches compiles the available
+Processing versions of tasks on Rosetta Code. The examples are directly
+downloadable from the repository. They may also be loaded directly into the
+Processing PDE desktop environment through Contributions Manager under the
+Examples tab.
 
 > Rosetta Code is a programming chrestomathy site. The idea is to present
 > solutions to the same task in as many different languages as possible, to
@@ -16,19 +17,22 @@ desktop environment through Contributions Manager under the Examples tab.
 
 Rosetta Code has ~1000 tasks including file and sysem access, string
 manipulation, math problems, graphics output and more -- with some of these
-tasks implemented in dozens or even hundreds of programming languages. A few
-examples include:
+tasks implemented in dozens or even hundreds of programming languages (although
+these example sketches are only the Processing implementations).
 
+A few examples include:
+
+-  Anagrams
 -  Archimedean spiral
--  Draw a sphere
--  Fibonacci sequence
+-  Binary digits
+-  Draw a pixel
 -  FizzBuzz
--  Hello world/Text
--  Image noise
+-  Josephus Problem
 -  Levenshtein distance
 -  Mandelbrot set
--  Palindrome detection
+-  Ninety-nine bottles
 -  Rename a file
+-  Sieve of Eratosthenes
 
 Simply put, this project both solicits Processing contributions to Rosetta Code
 and curates the resulting examples as a set for Processing language learners.
