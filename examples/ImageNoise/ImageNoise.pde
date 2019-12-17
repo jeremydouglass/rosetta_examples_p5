@@ -1,8 +1,11 @@
 /**
  * ImageNoise
- * 2019-08 Jeremy Douglass Processing 3.4
  * https://rosettacode.org/wiki/Image_noise#Processing
- *
+ * Processing 3.4
+ * 2019-08 Jeremy Douglass
+ * 
+ * Task:
+ * 
  * Generate a random black and white 320x240 image continuously, showing FPS
  * (frames per second).
  */

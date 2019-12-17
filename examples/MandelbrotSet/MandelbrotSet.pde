@@ -1,11 +1,13 @@
 /**
  * MandelbrotSet
- * 2017-09-23 Noel - Processing 3.4
  * https://rosettacode.org/wiki/Mandelbrot_set#Processing
+ * Processing 3.4
+ * 2017-09-23 Noel
  *
  * Task:
+ * 
  * Generate and draw the Mandelbrot set.
- *
+ * 
  * Note that there are many algorithms to draw Mandelbrot set
  * and there are many functions which generate it .
  */

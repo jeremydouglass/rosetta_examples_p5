@@ -1,9 +1,11 @@
 /**
  * RepeatAString
- * 2019-08 Jeremy Douglass Processing 3.4
  * https://rosettacode.org/wiki/Repeat_a_string#Processing
- *
+ * Processing 3.4
+ * 2019-08 Jeremy Douglass
+ * 
  * Task:
+ * 
  * Take a string and repeat it some number of times.
  * 
  * Example: repeat("ha", 5) => "hahahahaha"

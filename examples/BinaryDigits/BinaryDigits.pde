@@ -1,15 +1,18 @@
 /**
  * BinaryDigits
- * 2019-08 Jeremy Douglass Processing 3.4
  * https://rosettacode.org/wiki/Binary_digits#Processing
- *
+ * Processing 3.4
+ * 2019-08 Jeremy Douglass
+ * 
+ * Task:
+ * 
  * Create and display the sequence of binary digits for a given non-negative
  * integer.
- *
+ * 
  *   The decimal value      5   should produce an output of               101
  *   The decimal value     50   should produce an output of            110010
  *   The decimal value   9000   should produce an output of    10001100101000
- *
+ * 
  * The results can be achieved using built-in radix functions within the
  * language (if these are available), or alternatively a user defined function
  * can be used. The output produced should consist just of the binary digits of 

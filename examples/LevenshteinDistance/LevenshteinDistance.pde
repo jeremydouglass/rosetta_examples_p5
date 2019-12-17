@@ -1,8 +1,9 @@
 /**
  * LevenshteinDistance
- * 2019-08 Jeremy Douglass Processing 3.4
  * https://rosettacode.org/wiki/Levenshtein_distance#Processing
- *
+ * Processing 3.4
+ * 2019-08 Jeremy Douglass
+ * 
  * In information theory and computer science, the Levenshtein distance is a
  * metric for measuring the amount of difference between two sequences (i.e. an
  * edit distance). The Levenshtein distance between two strings is defined as
@@ -21,8 +22,9 @@
  * 
  * The distance between two strings is same as that when both strings are 
  * reversed.
- *
+ * 
  * Task:
+ * 
  * Implements a Levenshtein distance function, or uses a library function, to
  * show the Levenshtein distance between "kitten" and "sitting".
  */

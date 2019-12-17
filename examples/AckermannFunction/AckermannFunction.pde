@@ -1,10 +1,10 @@
 /**
  * Ackermann function
- * 2019-12 Jeremy Douglass Processing 3.4
  * https://rosettacode.org/wiki/Ackermann_function#Processing
- *
+ * Processing 3.4
+ * 2019-12 Jeremy Douglass
  * 2017-10-27 Edmund
- *
+ * 
  * The Ackermann function is a classic example of a recursive function, notable
  * especially because it is not a primitive recursive function. It grows very
  * quickly in value, as does the size of its call tree.
@@ -15,8 +15,9 @@
  * A(m,n) = (  A(m-1, 1)          if m > 0 and n = 0
  *          (  A(m-1, A(m, n-1))  if m > 0 and n > 0
  * Its arguments are never negative and it always terminates.
- *
+ * 
  * Task:
+ * 
  * Write a function which returns the value of A(m,n).
  * Arbitrary precision is preferred (since the function grows so quickly),
  * but not required.

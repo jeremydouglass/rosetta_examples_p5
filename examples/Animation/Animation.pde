@@ -1,10 +1,11 @@
 /**
  * Animation
- * 2019-08 Jeremy Douglass Processing 3.4
  * https://rosettacode.org/wiki/Animation#Processing
- *
+ * Processing 3.4
+ * 2019-08 Jeremy Douglass
+ * 
  * Task:
- *
+ * 
  * Create a window containing the string "Hello World! " (the trailing space
  * is significant). Make the text appear to be rotating right by periodically
  * removing one letter from the end of the string and attaching it to the front.

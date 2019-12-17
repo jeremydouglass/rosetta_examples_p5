@@ -1,8 +1,11 @@
 /**
  * ColorOfAScreenPixel
- * 2019-08 Jeremy Douglass Processing 3.4
  * https://rosettacode.org/wiki/Color_of_a_screen_pixel#Processing
- *
+ * Processing 3.4
+ * 2019-08 Jeremy Douglass
+ * 
+ * Task:
+ * 
  * Get color information from an arbitrary pixel on the screen,
  * such as the current location of the mouse cursor.
  * The mouse cursor may or may not have to be active in a GUI

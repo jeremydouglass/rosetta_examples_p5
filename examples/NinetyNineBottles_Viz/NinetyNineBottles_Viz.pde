@@ -1,10 +1,11 @@
 /**
  * NinetyNineBottles, Visual with Animation
+ * https://rosettacode.org/wiki/99_Bottles_of_Beer#Processing
  * Processing 3.4
  * 2019-12-19 Jeremy Douglass
- * https://rosettacode.org/wiki/99_Bottles_of_Beer#Processing
  *
  * Task:
+ * 
  * Display the complete lyrics for the song:
  * 99 Bottles of Beer on the Wall.
  * 

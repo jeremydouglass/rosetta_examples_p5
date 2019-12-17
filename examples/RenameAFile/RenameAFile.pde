@@ -1,20 +1,22 @@
 /**
  * RenameAFile
- * 2019-08 Jeremy Douglass Processing 3.4
  * https://rosettacode.org/wiki/Rename_a_file#Processing
- *
+ * Processing 3.4
+ * 2019-08 Jeremy Douglass
+ * 
  * Task:
- *
+ * 
  * Rename:
  * -  a file called `input.txt` into `output.txt` and
  * -  a directory called `docs` into `mydocs`.
- *
+ * 
  * This should be done twice: once "here", i.e. in the current working directory
  * and once in the filesystem root.
  * 
- * It can be assumed that the user has the rights to do so. (In unix-type systems,
- * only the user root would have sufficient permissions in the filesystem root.)
- *
+ * It can be assumed that the user has the rights to do so. (In unix-type
+ * systems, only the user root would have sufficient permissions in the
+ * filesystem root.)
+ * 
  * Note that sketches will seldom have write permission to root files/folders;
  * these root operations should be expected to fail by default.
  */

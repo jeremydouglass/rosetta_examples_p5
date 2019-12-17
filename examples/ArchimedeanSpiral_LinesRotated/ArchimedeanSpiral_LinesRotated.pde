@@ -1,17 +1,18 @@
 /**
  * Archimedean Spiral -- Lines Rotated
+ * https://rosettacode.org/wiki/Archimedean_spiral#Processing
  * Processing 3.4
  * 2019-12-19 Jeremy Douglass
- * https://rosettacode.org/wiki/Archimedean_spiral#Processing
- *
- * The Archimedean spiral is a spiral named after the Greek mathematician Archimedes.
- * An Archimedean spiral can be described by the equation:
+ * 
+ * The Archimedean spiral is a spiral named after the Greek mathematician
+ * Archimedes. An Archimedean spiral can be described by the equation:
  * 
  *   r = a + bθ
  * 
  * with real numbers a and b.
  * 
  * Task:
+ * 
  * Draw an Archimedean spiral. 
  */
 

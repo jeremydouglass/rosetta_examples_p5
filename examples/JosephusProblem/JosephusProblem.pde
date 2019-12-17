@@ -1,8 +1,10 @@
 /**
  * JosephusProblem
- * 2019-08 Jeremy Douglass Processing 3.4
  * https://rosettacode.org/wiki/Josephus_problem#Processing
- *
+ * Processing 3.4
+ * 2019-08 Jeremy Douglass
+ * [Translation of Java example.]
+ * 
  * Josephus problem is a math puzzle with a grim description:
  * n prisoners are standing on a circle, sequentially numbered from 0 to n-1.
  * An executioner walks along the circle, starting from prisoner 0, removing 
@@ -16,6 +18,7 @@
  * the survivor will be #2.
  * 
  * Task:
+ * 
  * Given any n, k>0, find out which prisoner will be the final survivor.
  * 
  * In one such incident, there were 41 prisoners and every 3rd prisoner was 
@@ -25,8 +28,6 @@
  * at the surviving position, and lived on to tell the tale.
  * 
  * Which number was he?
- * 
- * Translation of Java example.
  */
 
 void setup() {

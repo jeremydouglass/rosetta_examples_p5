@@ -1,9 +1,11 @@
 /**
  * Bitmap
+ * https://rosettacode.org/wiki/Bitmap#Processing
  * Processing 3.4
  * 2019-12-08 Noel
- * https://rosettacode.org/wiki/Bitmap#Processing
- *
+ * 
+ * Task:
+ * 
  * Show a basic storage type to handle a simple RGB raster graphics image,
  * and some primitive associated functions. If possible provide a function to
  * allocate an uninitialised image, given its width and height, and provide 3

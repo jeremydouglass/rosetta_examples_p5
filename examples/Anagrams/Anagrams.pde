@@ -1,12 +1,14 @@
 /**
  * Anagrams
- * 2019-08 Jeremy Douglass Processing 3.4
  * https://rosettacode.org/wiki/Anagrams#Processing
- *
- * When two or more words are composed of the same characters,
- * but in a different order, they are called anagrams.
+ * Processing 3.4
+ * 2019-08 Jeremy Douglass
+ * 
+ * When two or more words are composed of the same characters, but in a
+ * different order, they are called anagrams.
  * 
  * Task:
+ * 
  * Using the word list at  http://wiki.puzzlers.org/pub/wordlists/unixdict.txt
  * find the sets of words that share the same characters that contain the most
  * words in them.
