@@ -24,3 +24,15 @@
  * a multi-line comment
  * with some decorative stars
  */
+
+
+// comment out a code line
+// println("foo");
+
+
+// comment at the end of a line
+println("foo", "bar"); // "baz"
+
+
+// comment inline -- NOT recommended style
+println("foo", /*"bar",*/ "baz");
