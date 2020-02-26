@@ -1,7 +1,7 @@
 /**
 * EvenOrOdd
 * https://rosettacode.org/wiki/Even_or_odd#Processing
-* Processing 3.5.5
+* Processing 3.5.4
 * 2020-02-25 Dawit Ghebrehiwet (Based on the code from Jeremy Douglass at https://rosettacode.org/wiki/Even_or_odd#Processing)
 * 
 * Task:
