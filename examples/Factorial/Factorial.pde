@@ -2,7 +2,8 @@
 * Factorial
 * https://rosettacode.org/wiki/Factorial#Processing
 * Processing 3.5.4
-* 2020-02-25 Dawit Ghebrehiwet (Based on the code from Jeremy Douglass at https://rosettacode.org/wiki/Factorial#Processing)
+* 2020-02-26 Dawit Ghebrehiwet (iterative approach)
+* 2018-05-29 Wester Iii (recursive approach)
 * 
 * Definitions
 *   The factorial of 0 (zero) is defined as being 1 (unity).
