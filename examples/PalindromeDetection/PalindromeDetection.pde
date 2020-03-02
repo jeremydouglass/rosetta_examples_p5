@@ -3,7 +3,7 @@
 * https://rosettacode.org/wiki/Palindrome_detection#Processing
 * Processing 3.5.4
 * 2020-03-02 da8
-* 2020-05-24 Wester Iii
+* 2018-05-24 Wester Iii
 * 
 * A palindrome is a phrase which reads the same backward and forward.
 *
@@ -76,11 +76,10 @@ boolean isExactPalindrome(String s){
 }
 
 /*
-* Check for inexact palindrome using the check for exact palindromeabove.
-*/
+ * Check for inexact palindrome disregarding anythiing but alphabet characters.
+ * Disregards case, whitespace, and non-visible characters.
+ * Uses the check for exact palindrome above.
+ */
 boolean isInexactPalindrome(String s){
-    // removes all whitespaces and non-visible characters, 
-    // remove anything besides alphabet characters
-    // ignore case
     return isExactPalindrome(s.replaceAll("\\s+","").replaceAll("[^A-Za-z]+", "").toLowerCase());
 }

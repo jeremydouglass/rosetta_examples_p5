@@ -15,6 +15,13 @@
 *
 */
 
+void setup() {
+  size(800, 400);
+  background(255);
+  stroke(0, 255, 0);
+  tree(width/2.3, height, width/1.8, height, 10);
+}
+
 void tree(float x1, float y1, float x2, float y2, int depth) {
  
   if (depth <= 0) {
@@ -54,9 +61,3 @@ void tree(float x1, float y1, float x2, float y2, int depth) {
   tree(x5, y5, x3, y3, depth-1);
 }  
  
-void setup() {
-  size(1920, 1080);
-  background(255);
-  stroke(0, 255, 0);
-  tree(width/2.3, height, width/1.8, height, 10);
-}
