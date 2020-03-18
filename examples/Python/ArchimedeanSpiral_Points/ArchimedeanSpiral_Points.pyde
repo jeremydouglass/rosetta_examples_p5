@@ -2,9 +2,7 @@
 Archimedean Spiral -- Points
 https:#rosettacode.org/wiki/Archimedean_spiral#Processing
 Processing 3.4
-2019-12-19 Jeremy Douglass
-2019-04-12 Cdr6934 
-2020-03-14 Alexandre Villares (Python Mode)
+2020-03-14 Alexandre Villares
 
 The Archimedean spiral is a spiral named after the Greek mathematician
 Archimedes. An Archimedean spiral can be described by the equation:

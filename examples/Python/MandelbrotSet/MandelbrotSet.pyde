@@ -2,8 +2,7 @@
 MandelbrotSet
 https://rosettacode.org/wiki/Mandelbrot_set#Processing
 Processing 3.4
-2017-09-23 Noel
-2020-03-13 Alexandre (Python Mode)
+2020-03-13 Alexandre
 
 Task:
 

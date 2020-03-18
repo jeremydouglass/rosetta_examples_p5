@@ -2,8 +2,7 @@
 ImageNoise
 https://rosettacode.org/wiki/Image_noise#Processing
 Processing 3.4
-2019-08 Jeremy Douglass
-2020-03-15 Alexandre Villares (Python Mode)
+2020-03-15 Alexandre Villares
 
 Task:
 

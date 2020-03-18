@@ -1,8 +1,7 @@
 """
 Dragon Curve
 https://www.rosettacode.org/wiki/Dragon_curve#Processing
- 2020-02 Noel
- 2020-03 Alexandre Villares (Python Mode)
+2020-03 Alexandre Villares
 
 Task:
 

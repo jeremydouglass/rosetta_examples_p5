@@ -2,8 +2,7 @@
 Animation
 https://rosettacode.org/wiki/Animation#Processing
 Processing 3.4
-2019-08 Jeremy Douglass
-2020-03 Alexandre Villares (Python Mode)
+2020-03 Alexandre Villares
 
 Task:
 

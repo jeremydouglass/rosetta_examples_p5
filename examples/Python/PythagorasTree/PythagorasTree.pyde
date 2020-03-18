@@ -2,9 +2,7 @@
 PythagorasTree
 https://rosettacode.org/wiki/Pythagoras_tree#Processing
 Processing 3.5.4
-2016-06-08 Trizen
-2020-03-02 da8
-2020-03-17 Alexandre Villares (Python Mode)
+2020-03-17 Alexandre Villares
 
 Task:
 
