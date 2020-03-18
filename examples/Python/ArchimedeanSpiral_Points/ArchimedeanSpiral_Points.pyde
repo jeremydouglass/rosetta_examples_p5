@@ -8,10 +8,14 @@ Processing 3.4
 
 The Archimedean spiral is a spiral named after the Greek mathematician
 Archimedes. An Archimedean spiral can be described by the equation:
- r = a + bθ
+
+  r = a + bθ
+
 with real numbers a and b.
 
-Task: Draw an Archimedean spiral. 
+Task:
+
+Draw an Archimedean spiral. 
  """
 
 # When drawn with points the rotation must be very small, and initially the

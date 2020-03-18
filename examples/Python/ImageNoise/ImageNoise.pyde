@@ -5,7 +5,9 @@ Processing 3.4
 2019-08 Jeremy Douglass
 2020-03-15 Alexandre Villares (Python Mode)
 
-Task: Generate a random black and white 320x240 image continuously, showing FPS
+Task:
+
+Generate a random black and white 320x240 image continuously, showing FPS
 (frames per second).
 """
 

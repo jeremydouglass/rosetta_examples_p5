@@ -6,10 +6,12 @@ Processing 3.5.4
 2020-03-02 da8
 2020-03-17 Alexandre Villares (Python Mode)
 
-Task: Construct a Pythagoras tree of order 7 using only vectors (no rotation or trigonometric functions).
+Task:
 
-Related tasks
- 
+Construct a Pythagoras tree of order 7 using only vectors (no rotation or trigonometric functions).
+
+Related tasks:
+
 Fractal tree (https://rosettacode.org/wiki/Fractal_tree)
 """
 

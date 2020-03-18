@@ -1,12 +1,17 @@
 """
-Dragon Curve https://www.rosettacode.org/wiki/Dragon_curve#Processing
+Dragon Curve
+https://www.rosettacode.org/wiki/Dragon_curve#Processing
  2020-02 Noel
  2020-03 Alexandre Villares (Python Mode)
-Task: Create and display a dragon curve fractal.
+
+Task:
+
+Create and display a dragon curve fractal.
 https://en.wikipedia.org/wiki/Dragon_curve
+
 (You may either display the curve directly or write it to an image file.)
-For some brief notes the algorithms used and how they might suit various languages,
-see the Rosetta Code task page.
+For some brief notes on the algorithms used and how they might suit various
+languages, see the Rosetta Code task page.
 """
 
 l = 3
