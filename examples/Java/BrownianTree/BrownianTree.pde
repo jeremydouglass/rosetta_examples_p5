@@ -58,5 +58,7 @@ void draw() {
       break;
     }
   }
-  if (frameCount > width * height) noLoop();
+  if (frameCount > width * height) { 
+    noLoop();
+  }
 }
