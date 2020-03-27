@@ -19,11 +19,11 @@ in a 3 by 3 grid.
 cell_size = 10
 sample = 10 
 play = False   # simulation is running
+last_cell = 0
 
 def setup():
     global grid, next_grid, rows, cols
     size(800, 500)
-    noStroke()
 
     rows = height / cell_size
     cols = width / cell_size
@@ -45,8 +45,9 @@ def draw():
             y = j * cell_size
             current_state = grid[i][j]
             fill(255)
+            noStroke()
             if current_state:
-                square(x, y, cell_size)
+                rect(x, y, cell_size, cell_size)
             if play:
                 ngbs_alive = calc_ngbs_alive(i, j)
                 result = rule(current_state, ngbs_alive)
@@ -113,13 +114,15 @@ def keyReleased():
         sample += 1
 
 def mousePressed():
-    for i in range(cols):
-        x = i * cell_size
-        for j in range(rows):
-            y = j * cell_size
-            current_state = grid[i][j]
-            if mouse_over(x, y):
-                grid[i][j] = (1, 0)[current_state]
+    paint()
+    
+def mouseDragged():
+    paint()
 
-def mouse_over(x, y):
-    return x < mouseX < x + cell_size and y < mouseY < y + cell_size
+def paint():
+    global last_cell
+    i, j = mouseX // cell_size, mouseY // cell_size
+    p = j * cols + i
+    if p != last_cell:
+        last_cell = p
+        grid[i][j] = (1, 0)[grid[i][j]]
