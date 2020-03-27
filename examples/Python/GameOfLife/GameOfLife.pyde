@@ -17,6 +17,7 @@ in a 3 by 3 grid.
 """
 
 cell_size = 10
+sample = 10 
 play = False   # simulation is running
 
 def setup():
@@ -50,7 +51,8 @@ def draw():
                 ngbs_alive = calc_ngbs_alive(i, j)
                 result = rule(current_state, ngbs_alive)
                 next_grid[i][j] = result
-    if play:
+                
+    if play and frameCount % sample == 0:
         step()
 
 def rule(current, ngbs):
@@ -89,8 +91,8 @@ def step():
     grid = next_grid
     next_grid = empty_grid()
 
-def keyPressed():
-    global grid, play
+def keyReleased():
+    global grid, play, sample
     if key == "e":
         grid = empty_grid()
     if key == "r":
@@ -104,7 +106,11 @@ def keyPressed():
          grid[11][10:13] = [0, 1, 0]       
          grid[12][10:13] = [0, 1, 0]               
     if key == " ":
-        play = not play
+        play = not play 
+    if  str(key) in '+=':
+        sample = max(sample - 1, 1);
+    if key == '-':
+        sample += 1
 
 def mousePressed():
     for i in range(cols):
