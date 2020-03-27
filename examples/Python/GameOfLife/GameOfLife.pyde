@@ -25,7 +25,7 @@ last_cell = 0
 def setup():
     global grid, next_grid, rows, cols
     size(800, 500)
-
+    noStroke()
     rows = height / cell_size
     cols = width / cell_size
     grid = empty_grid()
@@ -47,7 +47,6 @@ def draw():
             y = j * cell_size
             current_state = grid[i][j]
             fill(255)
-            noStroke()
             if current_state:
                 rect(x, y, cell_size, cell_size)
             if play:
