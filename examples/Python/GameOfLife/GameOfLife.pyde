@@ -17,7 +17,6 @@ in a 3 by 3 grid.
 """
 
 cell_size = 10
-mouse_action = 0  # global for 'mouse painting'
 play = False   # simulation is running
 
 def setup():
@@ -108,27 +107,13 @@ def keyPressed():
         play = not play
 
 def mousePressed():
-    global mouse_action
-    state = cell_on_mouse(-1) # invert cell state
-    if state is not None:
-        mouse_action = state # capture cell state under mouse
-
-def mouseDragged():
-    cell_on_mouse((1, 0)[mouse_action])  # apply inverted entry state
-
-def cell_on_mouse(action=None):
     for i in range(cols):
         x = i * cell_size
         for j in range(rows):
             y = j * cell_size
             current_state = grid[i][j]
             if mouse_over(x, y):
-                if action == -1:
-                    grid[i][j] = (1, 0)[current_state]
-                elif action is not None:
-                    grid[i][j] = action
-
-                return current_state
+                grid[i][j] = (1, 0)[current_state]
 
 def mouse_over(x, y):
     return x < mouseX < x + cell_size and y < mouseY < y + cell_size
