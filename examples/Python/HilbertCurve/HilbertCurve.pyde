@@ -65,8 +65,6 @@ def keyPressed():
     if str(key) in "=+":
         angle_deg += 1
         print(angle_deg)
-    if key == 's':
-        saveFrame("####.png")
     if key == 'a':
         stroke_len *= 2
     if key == 'z':
