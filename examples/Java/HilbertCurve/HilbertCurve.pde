@@ -77,9 +77,6 @@ void keyPressed() {
     angleDeg += 1;
     println("Angle: " + angleDeg);
   }
-  if (key == 's') {
-    saveFrame("####.png");
-  }
   if (key == 'a') {
     strokeLen *= 2;
   }
