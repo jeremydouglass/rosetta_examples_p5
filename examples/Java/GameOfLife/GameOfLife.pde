@@ -24,6 +24,7 @@ int[][] grid;
 
 void setup() {
   size(800, 500);
+  noStroke();
   // Calculate cols, rows and init array
   cols = width/cellSize;
   rows = height/cellSize;
@@ -44,7 +45,6 @@ void draw() {
     for ( int j = 0; j < rows; j++) {
       if ((grid[i][j] == 1)) fill(255);
       else fill(0); 
-      noStroke();
       rect(i*cellSize, j*cellSize, cellSize, cellSize);
     }
   }
