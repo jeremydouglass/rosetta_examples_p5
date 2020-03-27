@@ -1,10 +1,12 @@
 """
 Game of Life
-https://rosettacode.org/wiki/Conway%27s_Game_of_Life#ProcessingProcessing 3.4
+https://rosettacode.org/wiki/Conway%27s_Game_of_Life#Processing
+Processing 3.4
 2020-03-26 Alexandre Villares
 
-The Game of Life is a   cellular automaton   devised by the British mathematician
-John Horton Conway   in 1970. It is the best-known example of a cellular automaton.
+The Game of Life is a cellular automaton devised by the British
+mathematician John Horton Conway in 1970. It is the best-known example
+of a cellular automaton.
 
 Task:
 
