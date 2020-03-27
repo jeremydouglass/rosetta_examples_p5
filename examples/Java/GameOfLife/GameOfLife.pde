@@ -17,6 +17,7 @@
 boolean play = true;
 int cellSize = 10;
 int cols, rows;
+int lastCell = 0;
 int sample = 10;
 // Game of life board
 int[][] grid;
@@ -47,7 +48,7 @@ void draw() {
       rect(i*cellSize, j*cellSize, cellSize, cellSize);
     }
   }
-  if (play && frameCount%sample==0) {
+  if (play && frameCount%sample==0 && !mousePressed) {
     generate();
   }
 }
@@ -135,18 +136,19 @@ void setNine(int x, int y, int nine[][]) {
 }
 
 void mousePressed() {
-  for (int i = 0; i < cols; i++) {
-    for (int j = 0; j < rows; j++) {
-      if (mouseOver(i * cellSize, j * cellSize)) {
-        print(i, j);
-        int states[] = {1, 0};
-        grid[i][j] = states[grid[i][j]]; // invert
-      }
-    }
-  }
+  paint();
+}
+void mouseDragged() {
+  paint();
 }
 
-boolean mouseOver(int x, int y) {
-  return (x < mouseX && mouseX < x + cellSize &&
-          y < mouseY && mouseY < y + cellSize);
+void paint() {
+  int x = mouseX/cellSize;
+  int y = mouseY/cellSize;
+  int p = y*cols + x;
+  if (p!=lastCell) {
+    lastCell=p;
+    int states[] = {1, 0};
+    grid[x][y] = states[grid[x][y]]; // invert
+  }
 }
