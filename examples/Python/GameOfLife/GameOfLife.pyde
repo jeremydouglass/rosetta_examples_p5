@@ -52,7 +52,7 @@ def draw():
                 result = rule(current_state, ngbs_alive)
                 next_grid[i][j] = result
                 
-    if play and frameCount % sample == 0:
+    if play and frameCount % sample == 0 and not mousePressed:
         step()
 
 def rule(current, ngbs):
