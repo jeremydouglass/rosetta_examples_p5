@@ -2,11 +2,12 @@
 Hilbert Curve
 https://www.rosettacode.org/wiki/Hilbert_curve#Processing
 Processing 3.4
-2020-03-25 Alexandre Villares
+2020-03 Alexandre Villares
 
 Task:
 
-Produce a graphical or ASCII-art representation of a Hilbert curve of at least order 3.
+Produce a graphical or ASCII-art representation of a
+Hilbert curve of at least order 3.
 https://en.wikipedia.org/wiki/Hilbert_curve
 """
 
@@ -55,10 +56,6 @@ def plot(angle):
             rotate(angle)
         elif c == "-":
             rotate(-angle)
-        elif c == "[":
-            pushMatrix()
-        elif c == "]":
-            popMatrix()
 
 def keyPressed():
     global angle_deg, xo, yo, stroke_len
