@@ -2,7 +2,8 @@
 Game of Life
 https://rosettacode.org/wiki/Conway%27s_Game_of_Life#Processing
 Processing 3.4
-2020-03-26 Alexandre Villares
+2020-03 Alexandre Villares
+2020-03 Jeremy Douglass
 
 The Game of Life is a cellular automaton devised by the British
 mathematician John Horton Conway in 1970. It is the best-known example
@@ -36,6 +37,7 @@ def setup():
     println("'b' demonstrate 'blinker'")
     println("'g' demonstrate glider")
     println("'r' to randomize grid")
+    println("'+' and '-' to change speed")
 
 def draw():
     background(0)
