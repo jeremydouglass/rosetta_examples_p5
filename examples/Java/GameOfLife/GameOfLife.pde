@@ -17,6 +17,7 @@
 boolean play = true;
 int cellSize = 10;
 int cols, rows;
+int sample = 10;
 // Game of life board
 int[][] grid;
 
@@ -46,7 +47,7 @@ void draw() {
       rect(i*cellSize, j*cellSize, cellSize, cellSize);
     }
   }
-  if (play) {
+  if (play && frameCount%sample==0) {
     generate();
   }
 }
@@ -93,7 +94,7 @@ void init(int option) {
   }
 }
 
-void keyPressed() {
+void keyReleased() {
   if (key == 'r') {
     init(-1); // randomize grid
   }
@@ -116,6 +117,12 @@ void keyPressed() {
   }
   if (key == ' ') {
     play = !play;
+  }
+  if (key == '+' || key == '=') {
+    sample=max(sample-1, 1);
+  }
+  if (key == '-') {
+    sample++;
   }
 }
 
