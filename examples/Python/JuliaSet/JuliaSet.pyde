@@ -11,15 +11,15 @@ https://en.wikipedia.org/wiki/Julia_set
 """
 
 from __future__ import division
-  
-def setup():
-    size(640, 480)
- 
+
 cX = -0.7
 cY = 0.27015
 maxIter = 300
-       
-def draw():    
+
+def setup():
+    size(640, 480)
+
+def draw():
     for x in range(width):
         for y in range(height):
             zx = 1.5 * (x - width / 2) / (0.5 * width)

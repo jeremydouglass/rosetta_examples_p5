@@ -1,5 +1,5 @@
 /**
- * MandelbrotSet
+ * JuliaSet
  * https://rosettacode.org/wiki/Julia_set#Processing
  * Processing 3.4
  * 2016-05 Daniel Suteu (Trizen)
@@ -10,14 +10,14 @@
  * https://en.wikipedia.org/wiki/Julia_set
  */
 
-void setup() {
-  size(640, 480);
-}
- 
 float cX = -0.7;
 float cY = 0.27015;
 float zx, zy;
 float maxIter = 300;
+
+void setup() {
+  size(640, 480);
+}
  
 void draw() {
   for (int x = 0; x < width; x++) {
