@@ -1,6 +1,6 @@
 """
 Mouse position
-https://rosettacode.org/wiki/Animation#Processing
+https://rosettacode.org/wiki/Mouse_position#Processing
 Processing 3.4
 2020-04 Alexandre Villares
 
