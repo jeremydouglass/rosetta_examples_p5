@@ -3,10 +3,12 @@
 
 Examples from [Rosetta Code](http://rosettacode.org/)
 for [Processing](http://processing.org) (Java Mode)
-and [Python Mode for Processing](https://py.processing.org/).
+and [Python Mode for Processing](https://py.processing.org/)
+and [Processing.R](https://processing-r.github.io/).
 
 
-These sets of example Processing sketches (both Java mode and Python mode) compile the available versions of code tasks listed on the Rosetta Code
+These sets of example Processing sketches (includiing Java mode, Python mode,
+and R mode) compile available versions of code tasks listed on the Rosetta Code
 wiki. The examples are directly downloadable from the repository. They may
 also be loaded directly into the Processing PDE desktop environment through
 Contributions Manager under the Examples tab.
@@ -53,6 +55,8 @@ will open the Contributions Manager to the Examples tab. Download the example
 set. All sketches will be installed in the Examples subfolder of your
 Processing data folder, and available through the Examples pop-up menu under 
 Contributed Examples > Rosetta Examples for P5.
+
+Examples are organized in subfolders by mode / language: Java, Python, and R.
 
 
 ##  License and Contributions
