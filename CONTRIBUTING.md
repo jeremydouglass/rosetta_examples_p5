@@ -15,14 +15,20 @@ Several options for contributing are listed below.
 
 To identify an existing Processing task already on the Rosetta Code wiki that is not yet part of this example set:
 
-1. on the Rosetta Code wiki, browse [Processing tasks](https://rosettacode.org/wiki/Category:Processing) or [Python mode tasks](https://rosettacode.org/wiki/Category:Processing_Python_mode). 
+1. on the Rosetta Code wiki, browse tasks for:
+   -  [Processing tasks](https://rosettacode.org/wiki/Category:Processing), or
+   -  [Python mode tasks](https://rosettacode.org/wiki/Category:Processing_Python_mode), or
+   -  [Processing.R tasks](https://rosettacode.org/wiki/Category:Processing.R)
    If you find a task that is not listed in this repos `examples` folder:
 2. [create a new issue](https://github.com/jeremydouglass/rosetta_examples_p5/issues) named for that task
 
 
 ### Contribute a new task to the Rosetta Code wiki
 
-1. on the Rosetta Code wiki, browse [Tasks not implemented in Processing](https://rosettacode.org/wiki/Reports:Tasks_not_implemented_in_Processing) or [Tasks not implemented in Python mode](https://rosettacode.org/wiki/Reports:Tasks_not_implemented_in_Processing_Python_mode).
+1. on the Rosetta Code wiki, browse unimplemented tasks:
+   -  [Tasks not implemented in Processing](https://rosettacode.org/wiki/Reports:Tasks_not_implemented_in_Processing), or
+   -  [Tasks not implemented in Python mode](https://rosettacode.org/wiki/Reports:Tasks_not_implemented_in_Processing_Python_mode), or
+   -  [Tasks not implemented in Processing.R](https://rosettacode.org/mw/index.php?title=Reports:Tasks_not_implemented_in_Processing.R&action=edit&redlink=1)
 2. select a task to add
 3. edit that page (full page edit)
 4. add a Processing section -- alphabetically using header markup
@@ -36,6 +42,29 @@ The result may look like this:
     background(0);
     ellipse(width/2, height/2, mouseX, mouseX);
     println(frameCount);
+}
+</lang>
+```
+
+or this:
+
+```
+==={{header|Processing Python mode}}===
+<lang python>def draw():
+    background(0)
+    ellipse(width/2, height/2, mouseX, mouseX)
+    println(frameCount)
+</lang>
+```
+
+or this:
+
+```
+==={{header|Processing.R}}===
+<lang r>draw <- function() {
+    background(0)
+    ellipse(width/2, height/2, mouseX, mouseX)
+    stdout$println(frameCount)
 }
 </lang>
 ```
